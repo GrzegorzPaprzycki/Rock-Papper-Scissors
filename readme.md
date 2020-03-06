@@ -12,5 +12,5 @@ Whole project has been written in Vanilla JS.
 ----------
 
 Have fun<br/>
-All the best<br/>
+All the best :)<br/>
 Grzegorz Paprzycki - Front-End Developer
