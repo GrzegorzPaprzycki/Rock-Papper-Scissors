@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+span {
+    font-weight: bold;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1 {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+main h2 {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.photos {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photos div {
+    cursor: pointer;
+}
+
+
+button.start {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border: none;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    background-color: darkblue;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button.start:hover {
+    background-color: #999;
+    color: darkblue;
+}
+
+button.start:focus {
+    outline: 0;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.results div p {
+    margin-top: 10px;
+}
+
+.finalResult {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.finalResult span:last-child {
+    opacity: 0;
+    transition: .2s;
+}
+
+.finalResult span:last-child.active {
+    opacity: 1;
+}

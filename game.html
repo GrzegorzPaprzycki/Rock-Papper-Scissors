@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gra - papier kamień nożyczki</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>rock -- paper -- scissors</h1>
+    </header>
+    <main>
+        <h2>Choose weapon</h2>
+        <section class="photos">
+            <div><img data-option="rock" src="/img/rock.jpg" alt="rock"></div>
+            <div><img data-option="paper" src="/img/paper.jpg" alt="paper"></div>
+            <div><img data-option="scissors" src="/img/scissors.jpg" alt="scissors"></div>
+        </section>
+        <button class="start">let's play</button>
+        <section class="results">
+            <div class="weapons">
+                <p class="playerWeapon">Your weapon: <span></span></p>
+                <p class="aiWeapon">AI weapon: <span></span></p>
+            </div>
+            <div class="stats">
+                <p class="games">Games: <span>0</span></p>
+                <p class="wins">Wins: <span>0</span></p>
+                <p class="losses">Losses: <span>0</span></p>
+                <p class="draws">Draws: <span>0</span></p>
+            </div>
+        </section>
+        <div class="finalResult">Result: <span></span><span class="cursor">|</span></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
