@@ -13,4 +13,6 @@ Whole project has been written in Vanilla JS.
 
 Have fun<br/>
 All the best :)<br/>
-Grzegorz Paprzycki - Front-End Developer
+Grzegorz Paprzycki - Front-End Developer  
+
+P.S. App has been created basing on training "Samuraj Programowania - JavaScript" (Udemy). 
